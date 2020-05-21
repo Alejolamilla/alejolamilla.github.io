@@ -1,2 +1,0 @@
-# Alejo
-Skada Design Web
