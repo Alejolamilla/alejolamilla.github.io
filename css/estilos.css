@@ -1,9 +1,16 @@
-body {
+﻿body {
     font-family: 'Courgette', cursive;
+    /*background-image: url(D:/SKADA_Design/Marketing/WebSite/images/madera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background: #EEE;
 }
 
 h1 {
     font-family: 'Lobster', cursive;
+    margin: 0;
+    margin-top: -10px;
+    height: 55px;
 }
 
 header {
@@ -12,59 +19,159 @@ header {
     letter-spacing: 1px;
     text-align: center;
     text-decoration: none;
-    background: rgb(240,230,100);
+    background: rgb(240,230,120);
+    margin-bottom: 10px;
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.6);
+    box-decoration-break
 }
 
 header img{
-    height: 150px;
+    height: 220px;
+    margin-top: 3px;
+    margin-bottom: -15px;
 }
 
 .right-position {
     justify-content: right;
     margin-left: auto;
     height: 260px;
-    width: 580px;
+    width: 680px;
     margin-right:20px;
 }
 
-.container {
+.left-position {
+    justify-content: left;
+    margin-right: auto;
     height: 260px;
-    width: 580px;
+    width: 680px;
+    margin-left: 20px;
+}
+
+.container {
+    height: inherit;
+    width: inherit;
     border-color: gray;
     border-style: solid;
-    border-width: 3px;
+    border-width: 1px;
     border-radius: 50px;
-    margin: 30px 0;
+    display: flex;
+    margin: 10px 5px;
+    box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.75);
+}
+
+.button-shadow1 {
+    height: inherit;
+    width: inherit;
+    display: flex;
+    border-radius: 49px;
+    margin: 0;
+    box-shadow: inset -0px -0px 25px 2px rgba(0,0,0,0.6);
+}
+
+.button-shadow2 {
+    height: inherit;
+    width: inherit;
+    display: flex;
+    border-radius: 49px;
+    margin: 0;
+    box-shadow: inset 0px 0px 25px 2px rgba(0,0,0,0.6);
 }
 
 .products {
-    display: flex;
-    flex-shrink: 0;
+    display: inherit;
     text-align: right;
     justify-content: flex-end;
+    width: inherit;
+    height: inherit;
+    font-size:22px;
 }
 
-.products img{
-
-    height: 250px;
-    padding: 5px;
-    border-radius:50px;
+.products img {
+    height: 240px;
+    padding: 10px;
+    border-radius: 50px;
 }
 
 h2{
-    padding-top: 50px;
+    padding-top: 40px;
     margin-bottom: 10px;
 }
 
 .packing img {
-    height: 250px;
-    padding: 5px;
+    height: 240px;
+    width: 250px;
+    padding: 10px;
     border-radius: 50px;
 }
 
 .packing {
-    display: flex;
-    flex-shrink: 0;
+    display: inherit;
     text-align: left;
     justify-content: flex-start;
+}
+
+.wraper1 {
+    /*border:1px solid red;*/
+    background: none;
+    display: flex;
+    align-content: center;
+    margin: 0 auto;
+    width: auto;
+    max-width: 1200px;
+    height: 280px;
+    padding: 6px;
+    border-radius: 10px 10px 0 0;
+}
+
+.wraper2 {
+    /*border:1px solid red;*/
+    background: #eee;
+    display: flex;
+    align-content: center;
+    margin: 0 auto;
+    width: auto;
+    max-width: 1200px;
+    height: 280px;
+    padding: 6px;
+    border-radius: 0 0 10px 10px;
+}
+
+footer {
+    background: rgb(240,230,120);
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.6);
+}
+
+#footer-wrap{
+    display: inherit;
+    width:2000px;
+    justify-content:inherit;
+}
+
+.social-media {
+    /*border: 1px solid red;*/
+    height: 50px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    display: inherit;
+}
+
+.social-media img{
+    justify-content:center;
+    align-items:inherit;
+    border-radius: 10px;
+}
+
+.other-data {
+    /*border: 1px solid red;*/
+    display: inherit;
+    height: 50px;
+    width: 300px;
+    align-items: center;
+    justify-content: flex-end;
 }
